@@ -82,21 +82,6 @@ SELECT * FROM campaign_orders;
 
 ---
 
-## 📌 3. Regression Model (Python Sketch)
-
-```python
-import pandas as pd
-import statsmodels.api as sm
-
-# Assume df contains one-hot encoded promo types and GMV
-X = df[['cashback', 'free_shipping', 'flash_sale']]
-X = sm.add_constant(X)
-y = df['gmv']
-
-model = sm.OLS(y, X).fit()
-print(model.summary())
-```
-
 ## 4. 📌 Retention Analysis
 
 Analyzed retention behavior of promo-exposed users by:
