@@ -40,7 +40,7 @@ This project simulates a Business Intelligence (BI) analysis designed to:
 
 ---
 
-## 📌 Dataset Simulated (15M+ rows)
+## 📌 Dataset Simulated 
 
 - `user_campaign_exposure.csv`  
 - `order_transactions.csv`  
